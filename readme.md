@@ -2,6 +2,8 @@
 
 *A Beginner-Friendly SQL Portfolio Project*
 
+[the dataset url](https://www.kaggle.com/datasets/ayeshasiddiqa123/cars-pre)
+
 ## 📌 Project Overview
 
 This project analyzes a real-world car price dataset using **PostgreSQL**.  
@@ -219,3 +221,4 @@ ORDER BY average_price DESC;
 ## ⭐ Support
 
 If you find this project helpful, please star the repository!
+
