@@ -122,7 +122,7 @@ ORDER BY price_rank
 LIMIT 10;
 ```
 
-![Top Paying Roles]()
+![Top Paying Roles](https://github.com/Nour-salepan/Car-Price-Analysis/blob/main/image-1)
 
 ### 🟡 Intermediate Queries
 
@@ -227,6 +227,7 @@ ORDER BY average_price DESC;
 ## ⭐ Support
 
 If you find this project helpful, please star the repository!
+
 
 
 
