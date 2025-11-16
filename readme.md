@@ -110,13 +110,19 @@ GROUP BY brand
 ORDER BY most_recent_model_year DESC;
 ```
 
-#### 7. Top 5 most expensive cars
+#### 7. Top 10 most expensive cars
 ```sql
-SELECT brand, model, price
+SELECT DISTINCT
+    brand,
+    model,
+    price,
+    RANK() OVER (ORDER BY price DESC) AS price_rank 
 FROM car_prices
-ORDER BY price DESC
-LIMIT 5;
+ORDER BY price_rank
+LIMIT 10;
 ```
+
+[top 10 most expensive cars]()
 
 ### 🟡 Intermediate Queries
 
@@ -221,4 +227,5 @@ ORDER BY average_price DESC;
 ## ⭐ Support
 
 If you find this project helpful, please star the repository!
+
 
